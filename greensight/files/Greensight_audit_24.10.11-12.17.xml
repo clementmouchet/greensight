@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE audit [<!ELEMENT audit (profile+ , date , conversion_factor , conversion_factor_unit)><!ELEMENT profile (description , values)><!ELEMENT description (#PCDATA)><!ELEMENT values (type , quantity , kWhPerYear , standby_factor , unit , perUnit , source , source_date)><!ELEMENT type (#PCDATA)><!ELEMENT quantity (#PCDATA)><!ELEMENT kWhPerYear (#PCDATA)><!ELEMENT standby_factor (#PCDATA)><!ELEMENT unit (#PCDATA)><!ELEMENT perUnit (#PCDATA)><!ELEMENT source (#PCDATA)><!ELEMENT source_date (#PCDATA)><!ELEMENT date (#PCDATA)><!ELEMENT conversion_factor (#PCDATA)><!ELEMENT conversion_factor_unit (#PCDATA)>]><audit>
+  <profile>
+    <description>Personal Computers Desktop no monitor</description>
+    <values>
+      <type>Computing equipment</type>
+      <quantity>9</quantity>
+      <kWhPerYear>224</kWhPerYear>
+      <standby_factor>0.95</standby_factor>
+      <unit>kg</unit>
+      <perUnit>year</perUnit>
+      <source>dgen / defra 2007</source>
+      <source_date>2008-11-26 15:46:08.0</source_date>
+    </values>
+  </profile>
+  <profile>
+    <description>Personal Computers Desktop no monitor</description>
+    <values>
+      <type>Computing equipment</type>
+      <quantity>10</quantity>
+      <kWhPerYear>224</kWhPerYear>
+      <standby_factor>0.95</standby_factor>
+      <unit>kg</unit>
+      <perUnit>year</perUnit>
+      <source>dgen / defra 2007</source>
+      <source_date>2008-11-26 15:46:08.0</source_date>
+    </values>
+  </profile>
+  <profile>
+    <description>Personal Computers Laptop</description>
+    <values>
+      <type>Computing equipment</type>
+      <quantity>1</quantity>
+      <kWhPerYear>69.1</kWhPerYear>
+      <standby_factor>1</standby_factor>
+      <unit>kg</unit>
+      <perUnit>year</perUnit>
+      <source>MTP/defra/amee 2008</source>
+      <source_date>2007-07-27 09:47:59.0</source_date>
+    </values>
+  </profile>
+  <profile>
+    <description>PSU, typical</description>
+    <values>
+      <type>Computing equipment</type>
+      <quantity>1</quantity>
+      <kWhPerYear>13.57</kWhPerYear>
+      <standby_factor>1</standby_factor>
+      <unit>kg</unit>
+      <perUnit>year</perUnit>
+      <source>MTP / defra 2007</source>
+      <source_date>2009-01-29 17:18:39.0</source_date>
+    </values>
+  </profile>
+  <profile>
+    <description>Hard drive, external</description>
+    <values>
+      <type>Computing equipment</type>
+      <quantity>1</quantity>
+      <kWhPerYear>3.749</kWhPerYear>
+      <standby_factor>1</standby_factor>
+      <unit>kg</unit>
+      <perUnit>year</perUnit>
+      <source>based on WD elements 400Gb used 1hr per day</source>
+      <source_date>2009-05-11 21:36:07.0</source_date>
+    </values>
+  </profile>
+  <profile>
+    <description>Printer, Laser</description>
+    <values>
+      <type>Computing equipment</type>
+      <quantity>1</quantity>
+      <kWhPerYear>150</kWhPerYear>
+      <standby_factor>1</standby_factor>
+      <unit>kg</unit>
+      <perUnit>year</perUnit>
+      <source>MTP/defra/amee 2008</source>
+      <source_date>2007-07-27 09:47:59.0</source_date>
+    </values>
+  </profile>
+  <profile>
+    <description>Scanner</description>
+    <values>
+      <type>Computing equipment</type>
+      <quantity>1</quantity>
+      <kWhPerYear>2.044</kWhPerYear>
+      <standby_factor>1</standby_factor>
+      <unit>kg</unit>
+      <perUnit>year</perUnit>
+      <source>based on Fujitsu ScanSnap S510 A4 Scanner used 12min per day</source>
+      <source_date>2009-05-11 21:36:07.0</source_date>
+    </values>
+  </profile>
+  <profile>
+    <description>Modem/router</description>
+    <values>
+      <type>Computing equipment</type>
+      <quantity>1</quantity>
+      <kWhPerYear>41.172</kWhPerYear>
+      <standby_factor>1</standby_factor>
+      <unit>kg</unit>
+      <perUnit>year</perUnit>
+      <source>based on netgear WGR614v7 US model</source>
+      <source_date>2009-05-11 21:36:07.0</source_date>
+    </values>
+  </profile>
+  <date>Mon Oct 24 2011 12:17:43 GMT+0100 (BST)</date>
+  <conversion_factor>0.59368</conversion_factor>
+  <conversion_factor_unit>Kg CO2e</conversion_factor_unit>
+</audit>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE audit [<!ELEMENT audit (profile+ , date , conversion_factor , conversion_factor_unit)><!ELEMENT profile (description , values)><!ELEMENT description (#PCDATA)><!ELEMENT values (type , quantity , kWhPerYear , standby_factor , unit , perUnit , source , source_date)><!ELEMENT type (#PCDATA)><!ELEMENT quantity (#PCDATA)><!ELEMENT kWhPerYear (#PCDATA)><!ELEMENT standby_factor (#PCDATA)><!ELEMENT unit (#PCDATA)><!ELEMENT perUnit (#PCDATA)><!ELEMENT source (#PCDATA)><!ELEMENT source_date (#PCDATA)><!ELEMENT date (#PCDATA)><!ELEMENT conversion_factor (#PCDATA)><!ELEMENT conversion_factor_unit (#PCDATA)>]><audit>
+  <profile>
+    <description>Personal Computers, Desktop 1 monitor</description>
+    <values role="Desktop PC" location="School Office" weeksOnPerYear="50" daysOnPerWeek="5" onPerDay="24" offPerDay="0" standbyPerDay="0">
+      <type>Computing equipment</type>
+      <quantity>3</quantity>
+      <kWhPerYear>588.49157436821</kWhPerYear>
+      <standby_factor>1</standby_factor>
+      <unit>kg</unit>
+      <perUnit>year</perUnit>
+      <source>dgen / defra 2007</source>
+      <source_date>2008-11-26 15:46:08.0</source_date>
+    </values>
+  </profile>
+  <profile>
+    <description>Monitor, LCD</description>
+    <values role="Other" location="School Office" weeksOnPerYear="50" daysOnPerWeek="5" onPerDay="7" offPerDay="15" standbyPerDay="2">
+      <type>Computing equipment</type>
+      <quantity>11</quantity>
+      <kWhPerYear>72.52801992528</kWhPerYear>
+      <standby_factor>1</standby_factor>
+      <unit>kg</unit>
+      <perUnit>year</perUnit>
+      <source>dgen / defra 2007</source>
+      <source_date>2008-11-26 15:46:11.0</source_date>
+    </values>
+  </profile>
+  <profile>
+    <description>Printer, Laser</description>
+    <values role="Shared Printer" location="School Office" weeksOnPerYear="50" daysOnPerWeek="7" onPerDay="2" offPerDay="0" standbyPerDay="22">
+      <type>Computing equipment</type>
+      <quantity>4</quantity>
+      <kWhPerYear>224.90660024907</kWhPerYear>
+      <standby_factor>1</standby_factor>
+      <unit>kg</unit>
+      <perUnit>year</perUnit>
+      <source>MTP/defra/amee 2008</source>
+      <source_date>2007-07-27 09:47:59.0</source_date>
+    </values>
+  </profile>
+  <profile>
+    <description>Scanner</description>
+    <values role="Other" location="School Office" weeksOnPerYear="stock-averaged energy consumed, scaled from MTP figures." onPerDay="0" offPerDay="0" standbyPerDay="0">
+      <type>Computing equipment</type>
+      <quantity>3</quantity>
+      <kWhPerYear>2.044</kWhPerYear>
+      <standby_factor>0.92</standby_factor>
+      <daysOnPerWeek/>
+      <unit>kg</unit>
+      <perUnit>year</perUnit>
+      <source>based on Fujitsu ScanSnap S510 A4 Scanner used 12min per day</source>
+      <source_date>2009-05-11 21:36:07.0</source_date>
+    </values>
+  </profile>
+  <profile>
+    <description>Personal Computers, Desktop 2 monitors</description>
+    <values role="Desktop PC" location="School Office" weeksOnPerYear="50" daysOnPerWeek="5" onPerDay="24" offPerDay="0" standbyPerDay="0">
+      <type>Computing equipment</type>
+      <quantity>4</quantity>
+      <kWhPerYear>588.49157436821</kWhPerYear>
+      <standby_factor>1</standby_factor>
+      <unit>kg</unit>
+      <perUnit>year</perUnit>
+      <source>dgen / defra 2007</source>
+      <source_date>2008-11-26 15:46:08.0</source_date>
+    </values>
+  </profile>
+  <date>Sat Nov 19 19:12:30 UTC 2011</date>
+  <conversion_factor>0.59368</conversion_factor>
+  <conversion_factor_unit>Kg CO2e</conversion_factor_unit>
+</audit>

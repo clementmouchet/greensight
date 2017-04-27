@@ -1,0 +1,126 @@
+#left {
+	width:18%
+}
+
+#top_left,#bottom_left {
+	width:100%;
+	margin-bottom:1em;
+	background-color:#fff
+}
+
+#bottom_left {
+	min-height:6em
+}
+
+#right {
+	width:81%;
+	margin-bottom:1%
+}
+
+#top_right {
+	margin-left:1%;
+	overflow:auto
+}
+
+#bottom_right {
+	margin-top:1em;
+	min-height:27em;
+	margin-left:1%;
+	position:relative
+}
+
+#accordion_fixed {
+	text-transform:uppercase
+}
+
+#accordion_fixed a,h4 {
+	margin-bottom:1em
+}
+
+#statement {
+	background-color:#DDD;
+	border:2px solid #663;
+	margin-bottom:2em;
+	margin-left:2em;
+	margin-right:2em
+}
+
+input.error,textarea.error {
+	border:2px solid red
+}
+
+#contact .required {
+	color:red
+}
+
+#contact label {
+	width:5em;
+	float:left;
+	margin-left:2em
+}
+
+#contact input {
+	width:20em
+}
+
+#contact label.error {
+	float:none;
+	color:red;
+	vertical-align:top
+}
+
+#message_box label.error {
+	margin-left:8em
+}
+
+#contact textarea.error {
+	border-color:red
+}
+
+#contact p {
+	clear:both
+}
+
+#contact .submit {
+	float:right;
+	width:6em;
+	margin-right:5em;
+	margin-bottom:2em
+}
+
+#contact em {
+	padding-right:1em;
+	vertical-align:top
+}
+
+#message {
+	min-height:15em;
+	width:40em;
+	margin-left:-.3em;
+	max-width:40em;
+	overflow:auto;
+	font:11pt Verdana,sans-serif
+}
+
+#result {
+	display:none;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center
+}
+
+#info {
+	position:absolute;
+	background-color:#DDD;
+	border:2px solid #999;
+	top:5.5em;
+	right:5em;
+	height:6em;
+	width:19em
+}
+
+#info ul {
+	margin-left:-.6em;
+	padding-right:.2em;
+	padding-top:.2em
+}

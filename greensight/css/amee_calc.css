@@ -1,0 +1,238 @@
+#left {
+	width:22%
+}
+
+#top_left {
+	width:100%;
+	margin-bottom:1em;
+	background-color:#fff;
+	max-height:20em;
+}
+
+#bottom_left,#middle_left {
+	width:100%;
+	margin-bottom:1em;
+	background-color:#fff
+}
+
+#middle_left {
+	height:auto
+}
+
+.compare {
+	width:90%;
+	margin-top:.5em;
+	margin-bottom:.5em;
+	margin-right:5%;
+	margin-left:5%
+}
+
+#right {
+	width:77%;
+	margin-bottom:1%
+}
+
+#top_right {
+	margin-left:1%;
+	min-height:11em;
+	height:auto
+}
+
+#bottom_right {
+	margin-top:1em;
+	margin-left:1%;
+	position:relative
+}
+
+#listOfBaskets,#reportBasket,#compareBaskets {
+	padding:1px;
+	width:99.8%
+}
+
+#wrap_listOfBaskets {
+	max-height:17.5em;
+	overflow:auto;
+	border-bottom: 1px solid #777;
+}
+
+#listOfBaskets {
+	height:auto;
+}
+
+#listOfBaskets tr {
+	height:1.8em
+}
+
+.basketDesc {
+	padding-left:.2em
+}
+
+select {
+	display:block;
+	margin-bottom:.5em;
+	font-size:.75em;
+	max-width:33em
+}
+
+#dcalclulator {
+	margin-top:1em;
+	margin-right:1em;
+	margin-left:1em;
+	margin-bottom:1em
+}
+
+#dcalclulator label {
+	font-size:9pt
+}
+
+#dcalclulator .loading {
+	position:relative;
+	top:.2em
+}
+
+#dcalclulator .qty,.hours,.days,.weeks {
+	width:7em;
+	text-align:right
+}
+
+#time_use {
+	width:25em;
+	display:block;
+	margin-top:.5em;
+	margin-bottom:.5em
+}
+
+#time_use span {
+	width:100%;
+	display:block;
+	margin-bottom:.2em
+}
+
+#time_use span label {
+	float:left;
+	width:17em
+}
+
+#time_use input[type=text] {
+	width:4em
+}
+
+#time_use input.error {
+	border:1px solid red
+}
+
+#time_use label.error {
+	color:red
+}
+
+#span_location label,#span_quantity label {
+	width:7em
+}
+
+#span_location input[type=text] {
+	width:10em;
+	margin-left:1.2em
+}
+
+#span_quantity input[type=text] {
+	width:4em;
+	margin-left:7.2em;
+	margin-bottom:.5em
+}
+
+#reset,#submit {
+	font-size:.75em
+}
+
+#dsrc_details {
+	position:absolute;
+	background-color:#DDD;
+	border:2px solid #5B5C0A;
+	top:1em;
+	bottom:auto+2em;
+	right:1em;
+	height:auto;
+	margin-bottom:1em;
+	width:21em
+}
+
+#data_src_details {
+	text-align:justify;
+	margin:.5em
+}
+
+#data_src_details p {
+	text-align:justify
+}
+
+table {
+	width:100%;
+	padding:1px
+}
+
+th {
+	text-align:left;
+	height:2em;
+	background-color:#DDD;
+	font-size:95%;
+	border-bottom:1px solid #999
+}
+
+td {
+	font-size:95%;
+	height:2em
+}
+
+tr td a {
+	text-decoration:none
+}
+
+tr td {
+	background-color:#FFF;
+	border-bottom:1px solid #999;
+	border-top:1px solid #999
+}
+
+tr.alt td {
+	background-color:#EEE;
+	border-bottom:1px solid #999;
+	border-top:1px solid #999
+}
+
+tr.over td {
+	background-color:#BCD8FC;
+	border-bottom:1px solid #47ADC0;
+	border-top:1px solid #47ADC0
+}
+
+td:first-child {
+	width:3em
+}
+
+.qty {
+	width:3em;
+	text-align:center
+}
+
+.amount,.totalkWh,.standby {
+	width:6em;
+	text-align:center
+}
+
+.unit,.perunit {
+	width:4em
+}
+
+.edit {
+	width:2em;
+	text-align:center
+}
+
+.bottom_right_btns {
+	margin-top:1em;
+	margin-right:1em;
+	margin-bottom:1em;
+	display:block;
+	float:right;
+	font-size:10pt
+}

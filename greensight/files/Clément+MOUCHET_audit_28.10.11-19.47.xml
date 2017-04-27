@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE audit [<!ELEMENT audit (profile+ , date , conversion_factor , conversion_factor_unit)><!ELEMENT profile (description , values)><!ELEMENT description (#PCDATA)><!ELEMENT values (type , quantity , kWhPerYear , standby_factor , unit , perUnit , source , source_date)><!ELEMENT type (#PCDATA)><!ELEMENT quantity (#PCDATA)><!ELEMENT kWhPerYear (#PCDATA)><!ELEMENT standby_factor (#PCDATA)><!ELEMENT unit (#PCDATA)><!ELEMENT perUnit (#PCDATA)><!ELEMENT source (#PCDATA)><!ELEMENT source_date (#PCDATA)><!ELEMENT date (#PCDATA)><!ELEMENT conversion_factor (#PCDATA)><!ELEMENT conversion_factor_unit (#PCDATA)>]><audit>
+  <profile>
+    <description>HP Compaq dc5800 Small Form Factor PC ENERGY STAR dc5800 SFF (category B) (C Floor)</description>
+    <values>
+      <type>Desktop</type>
+      <quantity>10</quantity>
+      <kWhPerYear>187.6</kWhPerYear>
+      <standby_factor>1</standby_factor>
+      <unit>kg</unit>
+      <perUnit>year</perUnit>
+      <source>www.energystar.gov</source>
+      <source_date>2009-09-02 16:50:42.0</source_date>
+    </values>
+  </profile>
+  <profile>
+    <description>HP ProBook 4411s Notebook PC ENERGY STAR 4411s</description>
+    <values>
+      <type>Notebook/Tablet</type>
+      <quantity>5</quantity>
+      <kWhPerYear>44.2</kWhPerYear>
+      <standby_factor>0.95</standby_factor>
+      <unit>kg</unit>
+      <perUnit>year</perUnit>
+      <source>www.energystar.gov</source>
+      <source_date>2009-09-02 16:51:44.0</source_date>
+    </values>
+  </profile>
+  <profile>
+    <description>Monitor, LCD</description>
+    <values>
+      <type>Computing equipment</type>
+      <quantity>2</quantity>
+      <kWhPerYear>64</kWhPerYear>
+      <standby_factor>1</standby_factor>
+      <unit>kg</unit>
+      <perUnit>year</perUnit>
+      <source>dgen / defra 2007</source>
+      <source_date>2008-11-26 15:46:11.0</source_date>
+    </values>
+  </profile>
+  <profile>
+    <description>HP Pavilion MS200 MS200 to MS209</description>
+    <values>
+      <type>Integrated Computers</type>
+      <quantity>2</quantity>
+      <kWhPerYear>125</kWhPerYear>
+      <standby_factor>1</standby_factor>
+      <unit>kg</unit>
+      <perUnit>year</perUnit>
+      <source>www.energystar.gov</source>
+      <source_date>2009-09-02 16:50:44.0</source_date>
+    </values>
+  </profile>
+  <date>Fri Oct 28 2011 19:47:47 GMT+0100 (BST)</date>
+  <conversion_factor>0.59368</conversion_factor>
+  <conversion_factor_unit>Kg CO2e</conversion_factor_unit>
+</audit>

@@ -1,0 +1,162 @@
+@media print {
+#header,#navigation {
+	display:none
+}
+
+#right {
+	display:block
+}
+}
+
+a {
+	text-decoration:none
+}
+
+.shadow {
+	border-style:none;
+	box-shadow:none
+}
+
+#audit_details {
+	margin-top:-.6em;
+	margin-left:auto;
+	margin-right:auto
+}
+
+#audit_details td {
+	font-size:10pt
+}
+
+#right {
+	width:100%;
+	margin-bottom:1%;
+	border-style:none
+}
+
+#top_right {
+	height:auto;
+	border-style:none
+}
+
+#bottom_right {
+	border-style:none;
+	margin-top:1em;
+	position:relative
+}
+
+#chart_totalfootprint {
+	position:relative;
+	margin-top:-1em;
+	margin-right:1em;
+	float:right;
+	height:2em;
+	min-width:6em
+}
+
+#head_ptotal {
+	text-align:center
+}
+
+#chartAll,#chartAllIn {
+	width:98%;
+	height:30em;
+	margin:1%
+}
+
+#chartCategory {
+	width:87%;
+	height:auto;
+	margin:1%
+}
+
+.jqplot-table-legend {
+	width:10%
+}
+
+#chartbtns {
+	display:none
+}
+
+#middle_right,#middle_right_alt,#results {
+	display:none;
+	border-style:none
+}
+
+#bottom_right table {
+	width:100%
+}
+
+#bottom_right th {
+	height:1.7em;
+	font-size:95%;
+	border-bottom:1px solid #999
+}
+
+#bottom_right td {
+	font-size:95%
+}
+
+#bottom_right tr td,#bottom_right tr.alt td {
+	border-style:none;
+	border-bottom:1px solid #DDD
+}
+
+#bottom_right td:first-child {
+	width:3em
+}
+
+.time_used_info {
+	font-size:8pt;
+	display:block
+}
+
+.location_info {
+	display:inline
+}
+
+th .dsc {
+	text-align:left
+}
+
+.qty,.chart_cat {
+	width:3em;
+	text-align:center
+}
+
+.chart_cat_s1 {
+	width:3em;
+	text-align:center;
+	background-color:#47ADC0
+}
+
+.chart_cat_text_s1 {
+	font-weight:700;
+	color:#47ADC0
+}
+
+.amount,.totalkWh,.standby {
+	width:5em;
+	text-align:center
+}
+
+.unit,.perunit {
+	width:3em
+}
+
+#avg {
+	width:2em;
+	text-align:center
+}
+
+#totalfootprint {
+	margin-top:.5em;
+	float:right;
+	height:auto;
+	min-width:6em;
+	margin-bottom:1em
+}
+
+#ptotal {
+	text-align:right;
+	margin:.2em
+}

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE audit [<!ELEMENT audit (profile+ , date , conversion_factor , conversion_factor_unit)><!ELEMENT profile (description , values)><!ELEMENT description (#PCDATA)><!ELEMENT values (type , quantity , role, location, kWhPerYear , weeksOnPerYear, daysOnPerWeek, onPerDay , offPerDay, standbyPerDay , standby_factor , unit , perUnit , source , source_date)><!ELEMENT type (#PCDATA)><!ELEMENT quantity (#PCDATA)><!ELEMENT role (#PCDATA)><!ELEMENT location (#PCDATA)><!ELEMENT kWhPerYear (#PCDATA)><!ELEMENT weeksOnPerYear (#PCDATA)><!ELEMENT daysOnPerWeek (#PCDATA)><!ELEMENT onPerDay (#PCDATA)><!ELEMENT offPerDay (#PCDATA)><!ELEMENT standbyPerDay (#PCDATA)><!ELEMENT standby_factor (#PCDATA)><!ELEMENT unit (#PCDATA)><!ELEMENT perUnit (#PCDATA)><!ELEMENT source (#PCDATA)><!ELEMENT source_date (#PCDATA)><!ELEMENT date (#PCDATA)><!ELEMENT conversion_factor (#PCDATA)><!ELEMENT conversion_factor_unit (#PCDATA)>]><audit>
+  <profile>
+    <description>Personal Computers, Desktop 1 monitor</description>
+    <values>
+      <type>Computing equipment</type>
+      <quantity>1</quantity>
+      <kWhPerYear>181.25540490541</kWhPerYear>
+      <standby_factor>1</standby_factor>
+      <role>Desktop PC</role>
+      <location>C37</location>
+      <weeksOnPerYear>44</weeksOnPerYear>
+      <daysOnPerWeek>5</daysOnPerWeek>
+      <onPerDay>6</onPerDay>
+      <offPerDay>15</offPerDay>
+      <standbyPerDay>3</standbyPerDay>
+      <unit>kg</unit>
+      <perUnit>year</perUnit>
+      <source>dgen / defra 2007</source>
+      <source_date>2008-11-26 15:46:08.0</source_date>
+    </values>
+  </profile>
+  <profile>
+    <description>Monitor, LCD</description>
+    <values>
+      <type>Computing equipment</type>
+      <quantity>1</quantity>
+      <kWhPerYear>58.915068493151</kWhPerYear>
+      <standby_factor>1</standby_factor>
+      <role>Other</role>
+      <location>C37</location>
+      <weeksOnPerYear>44</weeksOnPerYear>
+      <daysOnPerWeek>5</daysOnPerWeek>
+      <onPerDay>6</onPerDay>
+      <offPerDay>15</offPerDay>
+      <standbyPerDay>3</standbyPerDay>
+      <unit>kg</unit>
+      <perUnit>year</perUnit>
+      <source>dgen / defra 2007</source>
+      <source_date>2008-11-26 15:46:11.0</source_date>
+    </values>
+  </profile>
+  <profile>
+    <description>Printer, Laser</description>
+    <values>
+      <type>Computing equipment</type>
+      <quantity>1</quantity>
+      <kWhPerYear>129.86301369863</kWhPerYear>
+      <standby_factor>1</standby_factor>
+      <role>Shared Printer</role>
+      <location>C37</location>
+      <weeksOnPerYear>44</weeksOnPerYear>
+      <daysOnPerWeek>5</daysOnPerWeek>
+      <onPerDay>1</onPerDay>
+      <offPerDay>0</offPerDay>
+      <standbyPerDay>23</standbyPerDay>
+      <unit>kg</unit>
+      <perUnit>year</perUnit>
+      <source>MTP/defra/amee 2008</source>
+      <source_date>2007-07-27 09:47:59.0</source_date>
+    </values>
+  </profile>
+  <profile>
+    <description>Personal Computers, Desktop 1 monitor</description>
+    <values>
+      <type>Computing equipment</type>
+      <quantity>1</quantity>
+      <kWhPerYear>725.02161962164</kWhPerYear>
+      <standby_factor>1</standby_factor>
+      <role>Desktop PC</role>
+      <location>C37</location>
+      <weeksOnPerYear>44</weeksOnPerYear>
+      <daysOnPerWeek>7</daysOnPerWeek>
+      <onPerDay>24</onPerDay>
+      <offPerDay>0</offPerDay>
+      <standbyPerDay>0</standbyPerDay>
+      <unit>kg</unit>
+      <perUnit>year</perUnit>
+      <source>dgen / defra 2007</source>
+      <source_date>2008-11-26 15:46:08.0</source_date>
+    </values>
+  </profile>
+  <profile>
+    <description>Monitor, LCD</description>
+    <values>
+      <type>Computing equipment</type>
+      <quantity>1</quantity>
+      <kWhPerYear>89.775342465753</kWhPerYear>
+      <standby_factor>1</standby_factor>
+      <role>Other</role>
+      <location>C37</location>
+      <weeksOnPerYear>44</weeksOnPerYear>
+      <daysOnPerWeek>5</daysOnPerWeek>
+      <onPerDay>8</onPerDay>
+      <offPerDay>0</offPerDay>
+      <standbyPerDay>16</standbyPerDay>
+      <unit>kg</unit>
+      <perUnit>year</perUnit>
+      <source>dgen / defra 2007</source>
+      <source_date>2008-11-26 15:46:11.0</source_date>
+    </values>
+  </profile>
+  <date>Sat Nov 19 2011 13:49:28 GMT+0000 (GMT)</date>
+  <conversion_factor>0.59368</conversion_factor>
+  <conversion_factor_unit>Kg CO2e</conversion_factor_unit>
+</audit>

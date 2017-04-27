@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE audit [<!ELEMENT audit (profile+ , date , conversion_factor , conversion_factor_unit)><!ELEMENT profile (description , values)><!ELEMENT description (#PCDATA)><!ELEMENT values (type , quantity , kWhPerYear , standby_factor , unit , perUnit , source , source_date)><!ELEMENT type (#PCDATA)><!ELEMENT quantity (#PCDATA)><!ELEMENT kWhPerYear (#PCDATA)><!ELEMENT standby_factor (#PCDATA)><!ELEMENT unit (#PCDATA)><!ELEMENT perUnit (#PCDATA)><!ELEMENT source (#PCDATA)><!ELEMENT source_date (#PCDATA)><!ELEMENT date (#PCDATA)><!ELEMENT conversion_factor (#PCDATA)><!ELEMENT conversion_factor_unit (#PCDATA)>]><audit>
+  <profile>
+    <description>Personal Computers, Desktop</description>
+    <values role="Desktop PC" location="C27" weeksOnPerYear="38" daysOnPerWeek="5" onPerDay="6" offPerDay="18" standbyPerDay="0">
+      <type>Computing equipment</type>
+      <quantity>51</quantity>
+      <kWhPerYear>276.37377096556</kWhPerYear>
+      <standby_factor>1</standby_factor>
+      <unit>kg</unit>
+      <perUnit>year</perUnit>
+      <source>MTP/defra/amee 2008</source>
+      <source_date>2011-02-16 07:55:18.0</source_date>
+    </values>
+  </profile>
+  <profile>
+    <description>Printer, Laser</description>
+    <values role="Shared Printer" location="C27" weeksOnPerYear="38" daysOnPerWeek="7" onPerDay="1" offPerDay="0" standbyPerDay="23">
+      <type>Computing equipment</type>
+      <quantity>1</quantity>
+      <kWhPerYear>157.01618929016</kWhPerYear>
+      <standby_factor>1</standby_factor>
+      <unit>kg</unit>
+      <perUnit>year</perUnit>
+      <source>MTP/defra/amee 2008</source>
+      <source_date>2007-07-27 09:47:59.0</source_date>
+    </values>
+  </profile>
+  <profile>
+    <description>Personal Computers, Desktop (Viglen Genie i7)</description>
+    <values role="Desktop PC" location="C28" weeksOnPerYear="38" daysOnPerWeek="6" onPerDay="8" offPerDay="16" standbyPerDay="0">
+      <type>Computing equipment</type>
+      <quantity>24</quantity>
+      <kWhPerYear>408.18280019529</kWhPerYear>
+      <standby_factor>1</standby_factor>
+      <unit>kg</unit>
+      <perUnit>year</perUnit>
+      <source>MTP/defra/amee 2008</source>
+      <source_date>2011-02-16 07:55:18.0</source_date>
+    </values>
+  </profile>
+  <profile>
+    <description>Personal Computers, Desktop no monitor (previous Generation)</description>
+    <values role="Desktop PC" location="C28" weeksOnPerYear="38" daysOnPerWeek="6" onPerDay="1" offPerDay="23" standbyPerDay="0">
+      <type>Computing equipment</type>
+      <quantity>24</quantity>
+      <kWhPerYear>73.796843425774</kWhPerYear>
+      <standby_factor>1</standby_factor>
+      <unit>kg</unit>
+      <perUnit>year</perUnit>
+      <source>dgen / defra 2007</source>
+      <source_date>2008-11-26 15:46:08.0</source_date>
+    </values>
+  </profile>
+  <profile>
+    <description>Personal Computers, Desktop (Teacher PC)</description>
+    <values role="Desktop PC" location="C28" weeksOnPerYear="38" daysOnPerWeek="6" onPerDay="24" offPerDay="0" standbyPerDay="0">
+      <type>Computing equipment</type>
+      <quantity>1</quantity>
+      <kWhPerYear>1020.4570004882</kWhPerYear>
+      <standby_factor>1</standby_factor>
+      <unit>kg</unit>
+      <perUnit>year</perUnit>
+      <source>MTP/defra/amee 2008</source>
+      <source_date>2011-02-16 07:55:18.0</source_date>
+    </values>
+  </profile>
+  <profile>
+    <description>Personal Computers, Desktop no monitor (unused PCs)</description>
+    <values role="Desktop PC" location="C28" weeksOnPerYear="38" daysOnPerWeek="6" onPerDay="1" offPerDay="23" standbyPerDay="0">
+      <type>Computing equipment</type>
+      <quantity>2</quantity>
+      <kWhPerYear>73.796843425774</kWhPerYear>
+      <standby_factor>1</standby_factor>
+      <unit>kg</unit>
+      <perUnit>year</perUnit>
+      <source>dgen / defra 2007</source>
+      <source_date>2008-11-26 15:46:08.0</source_date>
+    </values>
+  </profile>
+  <profile>
+    <description>Personal Computers, Desktop (HP Dc7900 small)</description>
+    <values role="Desktop PC" location="B56" weeksOnPerYear="38" daysOnPerWeek="6" onPerDay="12" offPerDay="10" standbyPerDay="2">
+      <type>Computing equipment</type>
+      <quantity>24</quantity>
+      <kWhPerYear>578.25896694332</kWhPerYear>
+      <standby_factor>1</standby_factor>
+      <unit>kg</unit>
+      <perUnit>year</perUnit>
+      <source>MTP/defra/amee 2008</source>
+      <source_date>2011-02-16 07:55:18.0</source_date>
+    </values>
+  </profile>
+  <profile>
+    <description>Personal Computers, Desktop no monitor (connected to TV)</description>
+    <values role="Desktop PC" location="B56" weeksOnPerYear="38" daysOnPerWeek="6" onPerDay="2" offPerDay="22" standbyPerDay="0">
+      <type>Computing equipment</type>
+      <quantity>1</quantity>
+      <kWhPerYear>93.923255269167</kWhPerYear>
+      <standby_factor>1</standby_factor>
+      <unit>kg</unit>
+      <perUnit>year</perUnit>
+      <source>dgen / defra 2007</source>
+      <source_date>2008-11-26 15:46:08.0</source_date>
+    </values>
+  </profile>
+  <profile>
+    <description>Monitor, Plasma (TV)</description>
+    <values role="Other" location="B56" weeksOnPerYear="38" daysOnPerWeek="6" onPerDay="1" offPerDay="23" standbyPerDay="0">
+      <type>Computing equipment</type>
+      <quantity>1</quantity>
+      <kWhPerYear>253.73589041096</kWhPerYear>
+      <standby_factor>1</standby_factor>
+      <unit>kg</unit>
+      <perUnit>year</perUnit>
+      <source>dgen / defra 2007</source>
+      <source_date>2008-11-26 15:46:14.0</source_date>
+    </values>
+  </profile>
+  <profile>
+    <description>Personal Computers, Desktop no monitor</description>
+    <values role="Other" location="N/A" weeksOnPerYear="0" daysOnPerWeek="0" onPerDay="0" offPerDay="24" standbyPerDay="0">
+      <type>Computing equipment</type>
+      <quantity>1</quantity>
+      <kWhPerYear>0</kWhPerYear>
+      <standby_factor>1</standby_factor>
+      <unit>kg</unit>
+      <perUnit>year</perUnit>
+      <source>dgen / defra 2007</source>
+      <source_date>2008-11-26 15:46:08.0</source_date>
+    </values>
+  </profile>
+  <profile>
+    <description>Personal Computers, Desktop - RM Intel P4 (students)</description>
+    <values role="Desktop PC" location="C6" weeksOnPerYear="38" daysOnPerWeek="5" onPerDay="4" offPerDay="19" standbyPerDay="1">
+      <type>Computing equipment</type>
+      <quantity>24</quantity>
+      <kWhPerYear>219.68171538288</kWhPerYear>
+      <standby_factor>1</standby_factor>
+      <unit>kg</unit>
+      <perUnit>year</perUnit>
+      <source>MTP/defra/amee 2008</source>
+      <source_date>2011-02-16 07:55:18.0</source_date>
+    </values>
+  </profile>
+  <profile>
+    <description>Personal Computers, Desktop - RM Intel P4 (disabled)</description>
+    <values role="Desktop PC" location="C6" weeksOnPerYear="38" daysOnPerWeek="5" onPerDay="2" offPerDay="22" standbyPerDay="0">
+      <type>Computing equipment</type>
+      <quantity>1</quantity>
+      <kWhPerYear>148.81664590453</kWhPerYear>
+      <standby_factor>1</standby_factor>
+      <unit>kg</unit>
+      <perUnit>year</perUnit>
+      <source>MTP/defra/amee 2008</source>
+      <source_date>2011-02-16 07:55:18.0</source_date>
+    </values>
+  </profile>
+  <profile>
+    <description>Personal Computers, Desktop - RM Intel P4 (teachers)</description>
+    <values role="Desktop PC" location="C6" weeksOnPerYear="38" daysOnPerWeek="7" onPerDay="24" offPerDay="0" standbyPerDay="0">
+      <type>Computing equipment</type>
+      <quantity>1</quantity>
+      <kWhPerYear>1190.5331672363</kWhPerYear>
+      <standby_factor>1</standby_factor>
+      <unit>kg</unit>
+      <perUnit>year</perUnit>
+      <source>MTP/defra/amee 2008</source>
+      <source_date>2011-02-16 07:55:18.0</source_date>
+    </values>
+  </profile>
+  <profile>
+    <description>Personal Computers, Desktop no monitor  - RM Intel P4 (server)</description>
+    <values role="Server" location="C6 (server racks)" weeksOnPerYear="52" daysOnPerWeek="7" onPerDay="24" offPerDay="0" standbyPerDay="0">
+      <type>Computing equipment</type>
+      <quantity>1</quantity>
+      <kWhPerYear>856.84373228012</kWhPerYear>
+      <standby_factor>1</standby_factor>
+      <unit>kg</unit>
+      <perUnit>year</perUnit>
+      <source>dgen / defra 2007</source>
+      <source_date>2008-11-26 15:46:08.0</source_date>
+    </values>
+  </profile>
+  <profile>
+    <description>Monitor, LCD - old Viglen - (server)</description>
+    <values role="Server" location="C6 (server racks)" weeksOnPerYear="52" daysOnPerWeek="7" onPerDay="1" offPerDay="0" standbyPerDay="23">
+      <type>Computing equipment</type>
+      <quantity>1</quantity>
+      <kWhPerYear>91.675417185554</kWhPerYear>
+      <standby_factor>1</standby_factor>
+      <unit>kg</unit>
+      <perUnit>year</perUnit>
+      <source>dgen / defra 2007</source>
+      <source_date>2008-11-26 15:46:11.0</source_date>
+    </values>
+  </profile>
+  <profile>
+    <description>Monitor, LCD (whiteboard)</description>
+    <values role="Other" location="C6 whiteboard" weeksOnPerYear="38" daysOnPerWeek="7" onPerDay="24" offPerDay="0" standbyPerDay="0">
+      <type>Computing equipment</type>
+      <quantity>1</quantity>
+      <kWhPerYear>203.52478206725</kWhPerYear>
+      <standby_factor>1</standby_factor>
+      <unit>kg</unit>
+      <perUnit>year</perUnit>
+      <source>dgen / defra 2007</source>
+      <source_date>2008-11-26 15:46:11.0</source_date>
+    </values>
+  </profile>
+  <profile>
+    <description>ASUS Eee BOX B203 equivalent - VIA CPU (whiteboard)</description>
+    <values role="Other" location="C6 whiteboard" weeksOnPerYear=" Energy Star figures for the selected appliance and category" daysOnPerWeek="" onPerDay="" offPerDay="" standbyPerDay="">
+      <type>Desktop</type>
+      <quantity>1</quantity>
+      <kWhPerYear>97.8</kWhPerYear>
+      <standby_factor>1.05</standby_factor>
+      <unit>kg</unit>
+      <perUnit>year</perUnit>
+      <source>www.energystar.gov</source>
+      <source_date>2009-09-02 16:50:44.0</source_date>
+    </values>
+  </profile>
+  <profile>
+    <description>Modem/router - Cisco WiFi</description>
+    <values role="Server" location="C6" weeksOnPerYear="stock-averaged energy consumed, scaled from MTP figures." onPerDay="0" offPerDay="0" standbyPerDay="0">
+      <type>Computing equipment</type>
+      <quantity>5</quantity>
+      <kWhPerYear>41.172</kWhPerYear>
+      <standby_factor>1.05</standby_factor>
+      <daysOnPerWeek/>
+      <unit>kg</unit>
+      <perUnit>year</perUnit>
+      <source>based on netgear WGR614v7 US model</source>
+      <source_date>2009-05-11 21:36:07.0</source_date>
+    </values>
+  </profile>
+  <profile>
+    <description>Personal Computers, Desktop no monitor (not used)</description>
+    <values role="Other" location="C6" weeksOnPerYear="0" daysOnPerWeek="0" onPerDay="0" offPerDay="24" standbyPerDay="0">
+      <type>Computing equipment</type>
+      <quantity>11</quantity>
+      <kWhPerYear>0</kWhPerYear>
+      <standby_factor>1</standby_factor>
+      <unit>kg</unit>
+      <perUnit>year</perUnit>
+      <source>dgen / defra 2007</source>
+      <source_date>2008-11-26 15:46:08.0</source_date>
+    </values>
+  </profile>
+  <profile>
+    <description>ASUS Eee PC 1000HD equivalent - Micro controllers for tests</description>
+    <values role="Other" location="C6" weeksOnPerYear=" Energy Star figures for the selected appliance and category" daysOnPerWeek="" onPerDay="" offPerDay="" standbyPerDay="">
+      <type>Notebook/Tablet</type>
+      <quantity>25</quantity>
+      <kWhPerYear>34.1</kWhPerYear>
+      <standby_factor>1.05</standby_factor>
+      <unit>kg</unit>
+      <perUnit>year</perUnit>
+      <source>www.energystar.gov</source>
+      <source_date>2009-09-02 16:51:47.0</source_date>
+    </values>
+  </profile>
+  <profile>
+    <description>Personal Computers, Desktop - iMac 27</description>
+    <values role="Desktop PC" location="C36" weeksOnPerYear="38" daysOnPerWeek="5" onPerDay="5" offPerDay="19" standbyPerDay="0">
+      <type>Computing equipment</type>
+      <quantity>24</quantity>
+      <kWhPerYear>244.4844897003</kWhPerYear>
+      <standby_factor>1</standby_factor>
+      <unit>kg</unit>
+      <perUnit>year</perUnit>
+      <source>MTP/defra/amee 2008</source>
+      <source_date>2011-02-16 07:55:18.0</source_date>
+    </values>
+  </profile>
+  <profile>
+    <description>Personal Computers, Desktop - iMac 27 (teachers)</description>
+    <values role="Desktop PC" location="C36" weeksOnPerYear="38" daysOnPerWeek="5" onPerDay="5" offPerDay="19" standbyPerDay="0">
+      <type>Computing equipment</type>
+      <quantity>1</quantity>
+      <kWhPerYear>244.4844897003</kWhPerYear>
+      <standby_factor>1</standby_factor>
+      <unit>kg</unit>
+      <perUnit>year</perUnit>
+      <source>MTP/defra/amee 2008</source>
+      <source_date>2011-02-16 07:55:18.0</source_date>
+    </values>
+  </profile>
+  <profile>
+    <description>Scanner</description>
+    <values role="Other" location="D36" weeksOnPerYear="stock-averaged energy consumed, scaled from MTP figures." onPerDay="0" offPerDay="0" standbyPerDay="0">
+      <type>Computing equipment</type>
+      <quantity>3</quantity>
+      <kWhPerYear>2.044</kWhPerYear>
+      <standby_factor>0.95</standby_factor>
+      <daysOnPerWeek/>
+      <unit>kg</unit>
+      <perUnit>year</perUnit>
+      <source>based on Fujitsu ScanSnap S510 A4 Scanner used 12min per day</source>
+      <source_date>2009-05-11 21:36:07.0</source_date>
+    </values>
+  </profile>
+  <profile>
+    <description>Personal Computers, Desktop - iMac 24 (students)</description>
+    <values role="Desktop PC" location="C35" weeksOnPerYear="38" daysOnPerWeek="5" onPerDay="4" offPerDay="20" standbyPerDay="0">
+      <type>Computing equipment</type>
+      <quantity>24</quantity>
+      <kWhPerYear>212.59520843505</kWhPerYear>
+      <standby_factor>1</standby_factor>
+      <unit>kg</unit>
+      <perUnit>year</perUnit>
+      <source>MTP/defra/amee 2008</source>
+      <source_date>2011-02-16 07:55:18.0</source_date>
+    </values>
+  </profile>
+  <profile>
+    <description>Personal Computers, Desktop - iMac 24 (teachers)</description>
+    <values role="Desktop PC" location="C35" weeksOnPerYear="38" daysOnPerWeek="5" onPerDay="4" offPerDay="20" standbyPerDay="0">
+      <type>Computing equipment</type>
+      <quantity>1</quantity>
+      <kWhPerYear>212.59520843505</kWhPerYear>
+      <standby_factor>1</standby_factor>
+      <unit>kg</unit>
+      <perUnit>year</perUnit>
+      <source>MTP/defra/amee 2008</source>
+      <source_date>2011-02-16 07:55:18.0</source_date>
+    </values>
+  </profile>
+  <date>Wed Nov 16 2011 20:16:13 GMT+0000 (GMT)</date>
+  <conversion_factor>0.59368</conversion_factor>
+  <conversion_factor_unit>Kg CO2e</conversion_factor_unit>
+</audit>

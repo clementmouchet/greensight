@@ -1,0 +1,246 @@
+#right {
+	width:100%;
+	margin-bottom:1%
+}
+
+#audit_details {
+	margin-top:-.6em;
+	margin-left:auto;
+	margin-right:auto
+}
+
+#audit_details td {
+	font-size:10pt
+}
+
+#top_right {
+	height:auto
+}
+
+#bottom_right {
+	margin-top:.5em;
+	position:relative;
+	min-height:2.5em;
+	height:auto
+}
+
+#chart_totalfootprint {
+	position:relative;
+	margin-top:.5em;
+	margin-right:1em;
+	float:right;
+	height:2em;
+	min-width:6em
+}
+
+#head_ptotal {
+	text-align:center;
+	margin:.5em
+}
+
+#chartAll,#chartAllIn,#chartCategory {
+	width:98%;
+	height:auto;
+	margin:1%
+}
+
+#chartbtns {
+	width:50em;
+	margin-right:auto;
+	margin-left:auto;
+	margin-bottom:.5em
+}
+
+#chartbtns input {
+	width:13.7%;
+	margin-right:auto;
+	margin-left:auto
+}
+
+#middle_right_alt {
+	border:1px solid #999;
+	margin-top:.5em;
+	width:16em;
+	margin-right:auto;
+	margin-left:auto
+}
+
+#comparator_btns input {
+	width:30.5%;
+	margin:2px
+}
+
+#middle_right {
+	margin-top:.5em
+}
+
+#middle_right_left {
+	position:relative;
+	width:55%;
+	float:left;
+	max-height:10em;
+	overflow:auto
+}
+
+#middle_right_right {
+	position:relative;
+	width:43%;
+	height:100%;
+	float:right
+}
+
+.lb_description {
+	width:13em;
+	padding-left:.2em;
+	text-align:left
+}
+
+.lb_date {
+	width:5em;
+	text-align:center
+}
+
+.lb_series {
+	width:2.5em;
+	text-align:center
+}
+
+#listOfBaskets {
+}
+
+.btn_series {
+	width:10%
+}
+
+#listOfBaskets input {
+	margin-left:.5em
+}
+
+.lob_description {
+	padding-left:.2em;
+	text-align:left
+}
+
+#bottom_right_left {
+	float:left;
+	width:50%;
+	height:100%
+}
+
+#bottom_right_right {
+	float:right;
+	width:50%;
+	min-width:3em;
+	height:100%
+}
+
+.totalfootprint {
+	width:98%;
+	margin:.2em
+}
+
+#results_table_s1,#results_table_s2 {
+	width:99%;
+	border:1px solid #999;
+	margin:.2em
+}
+
+.styled_table table {
+	width:100%;
+	padding:1px
+}
+
+th {
+	text-align:left;
+	height:2em;
+	background-color:#DDD;
+	font-size:95%;
+	border-bottom:1px solid #999
+}
+
+.styled_table td {
+	font-size:95%;
+	height:2em
+}
+
+.styled_table tr td a {
+	text-decoration:none
+}
+
+.styled_table tr td {
+	border-bottom:1px solid #999;
+	border-top:1px solid #999
+}
+
+.styled_table tr.alt td {
+	background-color:#EEE;
+	border-bottom:1px solid #999;
+	border-top:1px solid #999
+}
+
+.styled_table tr.over td {
+	background-color:#BCD8FC;
+	border-bottom:1px solid #47ADC0;
+	border-top:1px solid #47ADC0
+}
+
+.styled_table td:first-child {
+	width:3em
+}
+
+.time_used_info {
+	font-size:9pt;
+	display:none
+}
+
+.location_info {
+	display:none
+}
+
+.qty,.chart_cat {
+	width:3em;
+	text-align:center
+}
+
+.chart_cat_s1 {
+	width:3em;
+	text-align:center;
+	background-color:#47ADC0
+}
+
+.chart_cat_s2 {
+	width:3em;
+	text-align:center;
+	background-color:#E69C22
+}
+
+.chart_cat_text_s1 {
+	font-weight:700;
+	color:#47ADC0
+}
+
+.chart_cat_text_s2 {
+	font-weight:700;
+	color:#E69C22
+}
+
+.amount,.totalkWh,.standby {
+	width:5.5em;
+	text-align:center
+}
+
+.unit,.perunit {
+	width:3.5em
+}
+
+#totalfootprint {
+	margin-top:.5em;
+	float:right;
+	height:2em;
+	min-width:6em
+}
+
+.ptotal {
+	text-align:center;
+	margin:.5em
+}

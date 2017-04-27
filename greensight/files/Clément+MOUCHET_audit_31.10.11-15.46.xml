@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE audit [<!ELEMENT audit (profile+ , date , conversion_factor , conversion_factor_unit)><!ELEMENT profile (description , values)><!ELEMENT description (#PCDATA)><!ELEMENT values (type , quantity , kWhPerYear , standby_factor , unit , perUnit , source , source_date)><!ELEMENT type (#PCDATA)><!ELEMENT quantity (#PCDATA)><!ELEMENT kWhPerYear (#PCDATA)><!ELEMENT standby_factor (#PCDATA)><!ELEMENT unit (#PCDATA)><!ELEMENT perUnit (#PCDATA)><!ELEMENT source (#PCDATA)><!ELEMENT source_date (#PCDATA)><!ELEMENT date (#PCDATA)><!ELEMENT conversion_factor (#PCDATA)><!ELEMENT conversion_factor_unit (#PCDATA)>]><audit>
+  <profile>
+    <description>HP Compaq dc5800 Small Form Factor PC ENERGY STAR dc5800 SFF (category B) (C Floor)</description>
+    <values>
+      <type>Desktop</type>
+      <quantity>10</quantity>
+      <kWhPerYear>187.6</kWhPerYear>
+      <standby_factor>1</standby_factor>
+      <unit>kg</unit>
+      <perUnit>year</perUnit>
+      <source>www.energystar.gov</source>
+      <source_date>2009-09-02 16:50:42.0</source_date>
+    </values>
+  </profile>
+  <profile>
+    <description>HP ProBook 4411s Notebook PC ENERGY STAR 4411s</description>
+    <values>
+      <type>Notebook/Tablet</type>
+      <quantity>5</quantity>
+      <kWhPerYear>44.2</kWhPerYear>
+      <standby_factor>0.95</standby_factor>
+      <unit>kg</unit>
+      <perUnit>year</perUnit>
+      <source>www.energystar.gov</source>
+      <source_date>2009-09-02 16:51:44.0</source_date>
+    </values>
+  </profile>
+  <profile>
+    <description>Monitor, LCD</description>
+    <values>
+      <type>Computing equipment</type>
+      <quantity>2</quantity>
+      <kWhPerYear>64</kWhPerYear>
+      <standby_factor>1</standby_factor>
+      <unit>kg</unit>
+      <perUnit>year</perUnit>
+      <source>dgen / defra 2007</source>
+      <source_date>2008-11-26 15:46:11.0</source_date>
+    </values>
+  </profile>
+  <profile>
+    <description>HP Pavilion MS200 MS200 to MS209</description>
+    <values>
+      <type>Integrated Computers</type>
+      <quantity>2</quantity>
+      <kWhPerYear>125</kWhPerYear>
+      <standby_factor>1</standby_factor>
+      <unit>kg</unit>
+      <perUnit>year</perUnit>
+      <source>www.energystar.gov</source>
+      <source_date>2009-09-02 16:50:44.0</source_date>
+    </values>
+  </profile>
+  <profile>
+    <description>Apple iMac - 24-inch, 2.66GHz MB418</description>
+    <values>
+      <type>Integrated Computers</type>
+      <quantity>1</quantity>
+      <kWhPerYear>85.1</kWhPerYear>
+      <standby_factor>0.95</standby_factor>
+      <unit>kg</unit>
+      <perUnit>year</perUnit>
+      <source>www.energystar.gov</source>
+      <source_date>2009-09-02 16:50:43.0</source_date>
+    </values>
+  </profile>
+  <profile>
+    <description>Fujitsu ESPRIMO E7935 E-STAR5 ESPRIMO E7935 E-STAR5 (category C)</description>
+    <values>
+      <type>Desktop</type>
+      <quantity>1</quantity>
+      <kWhPerYear>191.1</kWhPerYear>
+      <standby_factor>0.95</standby_factor>
+      <unit>kg</unit>
+      <perUnit>year</perUnit>
+      <source>www.energystar.gov</source>
+      <source_date>2009-09-02 16:50:44.0</source_date>
+    </values>
+  </profile>
+  <profile>
+    <description>BenQ U121******* DH1200</description>
+    <values>
+      <type>Notebook/Tablet</type>
+      <quantity>1</quantity>
+      <kWhPerYear>25.4</kWhPerYear>
+      <standby_factor>0.95</standby_factor>
+      <unit>kg</unit>
+      <perUnit>year</perUnit>
+      <source>www.energystar.gov</source>
+      <source_date>2009-09-02 16:51:47.0</source_date>
+    </values>
+  </profile>
+  <profile>
+    <description>Apple iMac - 20-inch, 2.66GHz MB417</description>
+    <values>
+      <type>Integrated Computers</type>
+      <quantity>1</quantity>
+      <kWhPerYear>84.8</kWhPerYear>
+      <standby_factor>0.95</standby_factor>
+      <unit>kg</unit>
+      <perUnit>year</perUnit>
+      <source>www.energystar.gov</source>
+      <source_date>2009-09-02 16:50:43.0</source_date>
+    </values>
+  </profile>
+  <profile>
+    <description>Fujitsu CELSIUS M470 E-STAR5</description>
+    <values>
+      <type>Workstation</type>
+      <quantity>1</quantity>
+      <kWhPerYear>113.66</kWhPerYear>
+      <standby_factor>1.05</standby_factor>
+      <unit>kg</unit>
+      <perUnit>year</perUnit>
+      <source>www.energystar.gov</source>
+      <source_date>2009-09-02 16:53:07.0</source_date>
+    </values>
+  </profile>
+  <profile>
+    <description>ASUS Eee BOX B203 P5LD2EB3-DHS</description>
+    <values>
+      <type>Desktop</type>
+      <quantity>1</quantity>
+      <kWhPerYear>97.8</kWhPerYear>
+      <standby_factor>1.05</standby_factor>
+      <unit>kg</unit>
+      <perUnit>year</perUnit>
+      <source>www.energystar.gov</source>
+      <source_date>2009-09-02 16:50:44.0</source_date>
+    </values>
+  </profile>
+  <profile>
+    <description>ASUS Eee PC 1003HAG 1003HAG</description>
+    <values>
+      <type>Notebook/Tablet</type>
+      <quantity>1</quantity>
+      <kWhPerYear>30.9</kWhPerYear>
+      <standby_factor>0.95</standby_factor>
+      <unit>kg</unit>
+      <perUnit>year</perUnit>
+      <source>www.energystar.gov</source>
+      <source_date>2009-09-02 16:51:47.0</source_date>
+    </values>
+  </profile>
+  <date>Mon Oct 31 15:46:36 UTC 2011</date>
+  <conversion_factor>0.54522</conversion_factor>
+  <conversion_factor_unit>Kg CO2e</conversion_factor_unit>
+</audit>

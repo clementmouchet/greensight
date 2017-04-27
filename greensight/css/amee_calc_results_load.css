@@ -1,0 +1,173 @@
+#right {
+	width:100%;
+	margin-bottom:1%
+}
+
+#audit_details {
+	margin-top:-.6em;
+	margin-left:auto;
+	margin-right:auto;
+	min-height:1em;
+}
+
+#audit_details td {
+	font-size:10pt
+}
+
+#top_right {
+	height:auto
+}
+
+#middle_right {
+	margin-top:1em;
+}
+
+#middle_right_left {
+	position:relative;
+	width:55%;
+	float:left;
+	max-height:12em;
+	overflow:auto
+}
+
+#middle_right_right {
+	position:relative;
+	width:43%;
+	float:right;
+	max-height:12em;
+	overflow:auto
+}
+
+.lb_description {
+	width:13em;
+	padding-left:.2em;
+	text-align:left
+}
+
+.lb_date {
+	width:5em;
+	text-align:center
+}
+
+.lb_series {
+	width:2.5em;
+	text-align:center
+}
+
+#listOfBaskets {
+}
+
+.btn_series {
+	width:10%
+}
+
+#listOfBaskets input {
+	margin-left:.5em
+}
+
+.lob_description {
+	padding-left:.2em;
+	text-align:left
+}
+
+#middle_right_alt {
+	border:1px solid #999;
+	margin-top:.5em;
+	width:16em;
+	margin-right:auto;
+	margin-left:auto
+}
+
+#comparator_btns input {
+	width:31.3%;
+	margin:1%
+}
+
+#bottom_right {
+	margin-top:1em;
+	position:relative
+}
+
+#bottom_right table {
+	width:100%;
+	padding:1px
+}
+
+.styled_table table {
+	width:100%;
+	padding:1px
+}
+
+th {
+	text-align:left;
+	height:2em;
+	background-color:#DDD;
+	font-size:95%;
+	border-bottom:1px solid #999
+}
+
+.styled_table td {
+	font-size:95%;
+	height:2em
+}
+
+.styled_table tr td a {
+	text-decoration:none
+}
+
+.styled_table tr td {
+	border-bottom:1px solid #999;
+	border-top:1px solid #999
+}
+
+.styled_table tr.alt td {
+	background-color:#EEE;
+	border-bottom:1px solid #999;
+	border-top:1px solid #999
+}
+
+.styled_table tr.over td {
+	background-color:#BCD8FC;
+	border-bottom:1px solid #47ADC0;
+	border-top:1px solid #47ADC0
+}
+
+.styled_table td:first-child {
+	width:3em
+}
+
+.time_used_info {
+	font-size:9pt;
+	display:none
+}
+
+.location_info {
+	display:none
+}
+
+.qty {
+	width:3em;
+	text-align:center
+}
+
+.amount,.totalkWh,.standby {
+	width:5.5em;
+	text-align:center
+}
+
+.unit,.perunit {
+	width:3.5em
+}
+
+#totalfootprint {
+	margin-top:.5em;
+	float:right;
+	height:100%;
+	min-width:6em;
+	margin-bottom: 1em;
+}
+
+#ptotal {
+	text-align:right;
+	margin:.2em	
+}

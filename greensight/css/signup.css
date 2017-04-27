@@ -1,0 +1,100 @@
+input.error {
+	border:2px solid red
+}
+
+.member_form input[type=text],.member_form input[type=password] {
+	width:20em
+}
+
+#agree_lab {
+	width:25em
+}
+
+.member_form input[type=reset],.member_form input[type=submit] {
+	width:5em
+}
+
+legend {
+	font-size:11pt;
+	font-weight:700;
+	padding-top:.5em
+}
+
+.member_form .required {
+	color:red
+}
+
+.member_form {
+	font-size:10pt
+}
+
+.member_form label {
+	font-size:10pt;
+	width:17em;
+	float:left
+}
+
+.member_form label.error {
+	float:none;
+	color:red;
+	padding-left:.5em;
+	vertical-align:top
+}
+
+.member_form p {
+	clear:both
+}
+
+.member_form input[type=submit] {
+	float:right;
+	margin-right:12em;
+	margin-bottom:1em
+}
+
+.member_form input[type=reset] {
+	float:left;
+	margin-left:18em
+}
+
+.member_form em {
+	font-weight:700;
+	padding-right:1em;
+	vertical-align:top
+}
+
+#left {
+	width:69%;
+	clear:both
+}
+
+#agree label {
+	width:15em
+}
+
+#right {
+	width:29%
+}
+
+#form_consent {
+	font:90% Cambria,Georgia,Verdana;
+	text-align:justify
+}
+
+.reader_btn {
+	float:right;
+	margin-top:-.1em;
+	margin-bottom:.5em
+}
+
+.rules {
+	font:90% Cambria,Georgia,Verdana;
+	font-weight:700;
+	text-align:justify
+}
+
+#result {
+	display:none;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center
+}
